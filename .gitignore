@@ -1,0 +1,8 @@
+# Evidencias locales de pruebas y notas de trabajo
+docs/*
+!docs/ATRIBUCIONES.md
+node_modules/
+.env
+.env.*
+*.log
+assets/cc-by-sa.png

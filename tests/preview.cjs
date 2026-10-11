@@ -1,0 +1,3 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE);
+const {pathToFileURL}=require('node:url');const path=require('node:path');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH});const p=await b.newPage({viewport:{width:1366,height:1000}});await p.goto(pathToFileURL(path.resolve('pizza-party-rea/index.html')).href);await p.screenshot({path:'pizza-party-rea/docs/inicio-escritorio.png',fullPage:true});await p.setViewportSize({width:390,height:844});await p.screenshot({path:'pizza-party-rea/docs/inicio-movil.png',fullPage:true});console.log('Inicio móvil sin desbordamiento:',await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await b.close()})().catch(e=>{console.error(e);process.exit(1)});
