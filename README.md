@@ -4,7 +4,7 @@ Recurso educativo abierto de Carlos Antonio Pardo. Seis estaciones para comprend
 
 ## Usar el recurso
 
-Abrí `index.html` en un navegador o accedé a la dirección de GitHub Pages cuando esté habilitada.
+[Abrir el REA online](https://pericles08.github.io/juntada-de-amigos-rea/). También podés abrir `index.html` localmente en un navegador.
 El sitio utiliza HTML, CSS y JavaScript, sin instalación ni compilación.
 
 Las imágenes y actividades principales se incluyen localmente. Python utiliza Pyodide 0.27.7 desde jsDelivr y necesita internet para cargar. Las lecturas externas también requieren conexión; no se promete funcionamiento totalmente offline.
