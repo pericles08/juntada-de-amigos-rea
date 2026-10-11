@@ -13,9 +13,9 @@ Referencia de diseño: HTML y CSS aportados por el usuario; se adaptaron paleta,
 
 ## Imágenes didácticas por estación
 
-assets/estacion-1.svg a assets/estacion-6.svg: diagramas originales elaborados para este REA con asistencia de IA, bajo CC BY 4.0. Representan respectivamente datos, secuencia, variables, casos de prueba, comparación de notaciones y reflexión. Todos cuentan con alternativa textual en la interfaz. Son apoyos conceptuales estáticos, no capturas de ejecuciones del estudiante.
+assets/estacion-1.svg a assets/estacion-6.svg: diagramas originales elaborados para este REA con asistencia de IA, bajo CC BY-SA 4.0. Representan respectivamente datos, secuencia, variables, casos de prueba, comparación de notaciones y reflexión. Todos cuentan con alternativa textual en la interfaz. Son apoyos conceptuales estáticos, no capturas de ejecuciones del estudiante.
 
-El fondo fondo-pizzas.svg es un dibujo vectorial original bajo CC BY 4.0. El título visible pasó a «Organizamos una juntada de pizzas» por solicitud del usuario; se conserva el nombre de carpeta para continuidad.
+El fondo fondo-pizzas.svg es un dibujo vectorial original bajo CC BY-SA 4.0. El título vigente es «Organizamos una juntada de amigos»; se conserva el nombre de carpeta para continuidad.
 
 Runtime Python: Pyodide 0.27.7, proyecto Pyodide (Mozilla y colaboradores), MPL 2.0; cargado desde https://cdn.jsdelivr.net/pyodide/v0.27.7/full/. No se incorpora su código al paquete local ni se relicencia. Documentación: https://pyodide.org/en/0.27.7/ .
 
@@ -39,4 +39,4 @@ Preferir imágenes propias, CC0, CC BY o CC BY-SA. En Pixabay verificar individu
 - Insignia CC BY-SA 4.0 de Creative Commons, sin modificaciones, enlazada a la licencia de los contenidos originales. Fuente: https://licensebuttons.net/l/by-sa/4.0/88x31.png .
 
 
-Actualización de licencia de contenidos: CC BY 4.0. La insignia vigente es assets/cc-by.png, obtenida de https://licensebuttons.net/l/by/4.0/88x31.png, sin modificaciones. Sustituye a la insignia CC BY-SA en la interfaz. El logo REA conserva CC BY 3.0.
+Versión de entrega: contenidos originales CC BY-SA 4.0 e insignia assets/cc-by-sa.png. Las copias publicadas anteriormente bajo CC BY 4.0 conservan esos permisos; no se revocan. El logo REA conserva CC BY 3.0.

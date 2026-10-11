@@ -22,11 +22,13 @@ Las respuestas se guardan localmente en el navegador. Descargar un respaldo perm
 ## Software libre y contenidos abiertos
 
 Código original: [MIT](LICENSE), software libre que se puede usar, estudiar, modificar y redistribuir, incluso comercialmente, conservando los avisos correspondientes.
-Contenidos originales: [CC BY 4.0](LICENSE-CONTENIDOS.md), reutilizables y adaptables con atribución a Carlos Antonio Pardo.
+Contenidos originales: [CC BY-SA 4.0](LICENSE-CONTENIDOS.md), reutilizables y adaptables con atribución a Carlos Antonio Pardo.
 Ver [condiciones de reutilización](licencias/README.md) y [atribuciones de terceros](docs/ATRIBUCIONES.md).
 
 ## Desarrollo y verificación
 
 No se necesita un servidor para abrir el recurso localmente. Para pruebas de desarrollo se utilizan Node.js, Playwright y Chromium. Los scripts están en `tests/`; se ejecutan desde el directorio padre de `pizza-party-rea`. Las variables PLAYWRIGHT_MODULE y CHROMIUM_PATH permiten indicar sus ubicaciones. Las pruebas de Python requieren acceso a internet.
 
-La publicación permite utilizar la versión actual. La evaluación profesional de experiencia de usuario, accesibilidad y estética sigue pendiente. La guía docente, documentación de IA y reflexión personal se elaborarán por separado.
+La publicación permite utilizar la versión actual. La evaluación profesional de experiencia de usuario, accesibilidad y estética sigue pendiente. La [guía docente](docentes/guia-docente.html) se publica por separado de la interfaz estudiantil, con [fuente editable](docentes/guia-docente.docx). Destinatarios: primer año de secundaria, Informática, segundo cuatrimestre, con acompañamiento docente. El expediente académico y la reflexión para validar se conservan en la carpeta de entrega del autor.
+
+La versión de entrega adopta CC BY-SA 4.0 como exige la consigna. Los permisos de copias anteriores bajo CC BY 4.0 no se revocan.
